@@ -1,0 +1,19 @@
+{
+  "name": "abbey-cypress",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "lint": "eslint ."
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-cypress": "^2.8.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
