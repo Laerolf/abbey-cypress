@@ -13,5 +13,6 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
+import "./notification-commands";
 
 

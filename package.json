@@ -2,13 +2,15 @@
   "name": "abbey-cypress",
   "version": "1.0.0",
   "scripts": {
-    "cypress:open": "cypress open",
+    "cypress:open:local": "cypress open",
     "lint": "eslint ."
   },
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "cypress": "^3.8.1"
+    "cypress": "^3.8.1",
+    "fs-extra": "^8.1.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

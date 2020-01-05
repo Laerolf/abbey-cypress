@@ -1,0 +1,20 @@
+{
+  "url": "/register",
+  "form": {
+    "element": "[abbey-token='register-form']",
+    "fields" : {
+      "usernameField": "[abbey-token='register-form-username']",
+      "passwordField": "[abbey-token='register-form-password']",
+      "confirmPasswordField": "[abbey-token='register-form-confirmPassword']"
+    },
+    "register": "[abbey-token='register-form-register']"
+  },
+  "actions": {
+    "login": "[abbey-token='register-actions-login']"
+  },
+  "errorMessage": {
+    "element": "[class='vue-notification-template notification error']",
+    "title": "[class='notification-title']",
+    "content": "[class='notification-content']"
+  }
+}

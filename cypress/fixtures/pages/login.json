@@ -1,0 +1,14 @@
+{
+  "url": "/login",
+  "form": {
+    "element": "[abbey-token='login-form']",
+    "fields" : {
+      "usernameField": "[abbey-token='login-form-username']",
+      "passwordField": "[abbey-token='login-form-password']"
+    },
+    "login": "[abbey-token='login-form-login']"
+  },
+  "actions": {
+    "register": "[abbey-token='login-actions-register']"
+  }
+}

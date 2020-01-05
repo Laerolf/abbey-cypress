@@ -1,0 +1,12 @@
+{
+  "errorMessage": {
+    "element": "[class='vue-notification-template notification error']",
+    "title": "[class='notification-title']",
+    "content": "[class='notification-content']"
+  },
+  "successMessage": {
+    "element": "[class='vue-notification-template notification success']",
+    "title": "[class='notification-title']",
+    "content": "[class='notification-content']"
+  }
+}
